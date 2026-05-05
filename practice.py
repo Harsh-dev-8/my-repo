@@ -1,7 +1,25 @@
-count = 0
+data = {"name": "harsh",
+    "age":20,
+    "grade": "f",
+    "passed": "yes barely"
+}
+#print(data.get("name"))
+#data.update({"grade": "d"})
+#data.update({"school": "kvs"})
 
-for x in range(1 , 10):
-        if x % 2 == 0:
-            print(x)
-            count += 1
-print(f"total even numbers : {count}")
+#keys = data.keys()
+#value = data.values()
+#for new_data in data.keys():
+#    print(keys)
+
+#keys = data.keys()
+#values = data.values()
+
+#all_values = keys , values
+
+#for new_data in data.keys , data.values:
+#    print(f"{keys} : {values}")
+#    print(new_data)
+
+for x,y in data.items():
+    print(f"{x}: {y}")
