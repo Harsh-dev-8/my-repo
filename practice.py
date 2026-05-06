@@ -1,25 +1,9 @@
-data = {"name": "harsh",
-    "age":20,
-    "grade": "f",
-    "passed": "yes barely"
-}
-#print(data.get("name"))
-#data.update({"grade": "d"})
-#data.update({"school": "kvs"})
+nums = [2, 4, 7, 9]
 
-#keys = data.keys()
-#value = data.values()
-#for new_data in data.keys():
-#    print(keys)
+def sum_list(nums):
+    total = 0
+    for num in nums:
+        total += num
+    return total
 
-#keys = data.keys()
-#values = data.values()
-
-#all_values = keys , values
-
-#for new_data in data.keys , data.values:
-#    print(f"{keys} : {values}")
-#    print(new_data)
-
-for x,y in data.items():
-    print(f"{x}: {y}")
+print(sum_list(nums))
